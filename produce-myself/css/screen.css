@@ -1,0 +1,19 @@
+.size-warn {
+  background: var(--insta-mood-gradient);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  font-size: 30px;
+  top: 0;
+  position: absolute;
+  z-index: 99;
+}
+
+@media screen and (max-width: 900px) {
+  .size-warn {
+    display: flex;
+  }
+}
